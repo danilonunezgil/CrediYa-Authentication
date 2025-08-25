@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ms-authentication
+  profiles:
+    active: dev
+
+application:
+  title: CreditYa Authentication Microservice
+  version: 1.0.0
+
+server:
+  port: 8080
