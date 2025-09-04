@@ -4,6 +4,7 @@ HELP.md
 # General compilation folders
 **/target/
 **/build/
+build/
 
 # Environment files
 .env
@@ -38,6 +39,12 @@ HELP.md
 
 # VS Code
 **/.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
 
 # Files common to Java projects
 **/*.class
@@ -51,3 +58,107 @@ HELP.md
 **/*.rar
 **/hs_err_pid*
 **/replay_pid*
+*.hprof
+*.ctxt
+.mtj.tmp/
+
+# Gradle
+.gradle
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+build-cache
+
+# Eclipse extras
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders/
+.externalToolBuilders/
+*.launch
+*.pydevproject
+.cproject
+.autotools
+.buildpath
+.target
+.tern-project
+.texlipse
+.cache-main
+.scala_dependencies
+.worksheet
+
+# IntelliJ extras
+.idea/**
+.idea_modules/
+atlassian-ide-plugin.xml
+.idea/replstate.xml
+.idea/httpRequests
+.idea/sonarlint
+cmake-build-*/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+sftp-config.json
+Package Control.*
+Package Control.cache/
+Package Control.ca-certs/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
+bh_unicode_properties.cache
+GitHub.sublime-settings
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Sonar / SonarQube
+.sonar/
+.scannerwork/
+.sonarlint/
